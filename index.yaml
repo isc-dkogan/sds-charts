@@ -6,8 +6,22 @@ entries:
       intersystems/sds-organization: InterSystems Corporation
       intersystems/sds-title: SDS Insights Stratification Service
     apiVersion: v2
+    appVersion: 0.1.13
+    created: "2024-01-11T13:58:12.347838-05:00"
+    description: A Helm chart for the insights stratification service
+    digest: 2ce1997766602c300568147540d6781988f76c4511bca3bfd1e5c60162a507a1
+    name: insights
+    type: application
+    urls:
+    - https://isc-dkogan.github.io/sds-charts/insights-0.1.10.tgz
+    version: 0.1.10
+  - annotations:
+      intersystems/sds-category: custom
+      intersystems/sds-organization: InterSystems Corporation
+      intersystems/sds-title: SDS Insights Stratification Service
+    apiVersion: v2
     appVersion: 0.1.12
-    created: "2024-01-11T13:32:58.372032-05:00"
+    created: "2024-01-11T13:58:12.352389-05:00"
     description: A Helm chart for the insights stratification service
     digest: aaa40bb8c08adbee847fc119223aeef5c33ca6939109867688a26f35ec6ba234
     name: insights
@@ -21,7 +35,7 @@ entries:
       intersystems/sds-title: SDS Insights Stratification Service
     apiVersion: v2
     appVersion: 0.1.11
-    created: "2024-01-11T13:32:58.370865-05:00"
+    created: "2024-01-11T13:58:12.351439-05:00"
     description: A Helm chart for the insights stratification service
     digest: 8edebe9cb4e99d746105180d70c9a2eefa5428cfe5e956a487462fd4f754247c
     name: insights
@@ -35,7 +49,7 @@ entries:
       intersystems/sds-title: SDS Insights Stratification Service
     apiVersion: v2
     appVersion: 0.1.10
-    created: "2024-01-11T13:32:58.367904-05:00"
+    created: "2024-01-11T13:58:12.35028-05:00"
     description: A Helm chart for the insights stratification service
     digest: f42a777ebcc624cf85c735f5c751b4af02ac701428b1f3967058ff8c366e06a4
     name: insights
@@ -49,7 +63,7 @@ entries:
       intersystems/sds-title: SDS Insights Stratification Service
     apiVersion: v2
     appVersion: 0.1.9
-    created: "2024-01-11T13:32:58.366437-05:00"
+    created: "2024-01-11T13:58:12.349077-05:00"
     description: A Helm chart for the insights stratification service
     digest: 8d63df866b6ca77c47482248d11e171cd8a65913db021462a7ce37c37d349a05
     name: insights
@@ -57,4 +71,4 @@ entries:
     urls:
     - https://isc-dkogan.github.io/sds-charts/insights-0.1.6.tgz
     version: 0.1.6
-generated: "2024-01-11T13:32:58.361587-05:00"
+generated: "2024-01-11T13:58:12.346361-05:00"
