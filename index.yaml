@@ -7,7 +7,7 @@ entries:
       intersystems/sds-title: SDS Insights Stratification Service
     apiVersion: v2
     appVersion: 0.1.35
-    created: "2024-02-07T20:01:31.289773-05:00"
+    created: "2024-02-07T20:13:37.547435-05:00"
     description: A Helm chart for the insights stratification service
     digest: 8139b3648a6b01c389896fe614941b16c075834c80ff3576a0f3342cb894e529
     name: insights
@@ -21,7 +21,7 @@ entries:
       intersystems/sds-title: SDS Insights Stratification Service
     apiVersion: v2
     appVersion: 0.1.34
-    created: "2024-02-07T20:01:31.289465-05:00"
+    created: "2024-02-07T20:13:37.547159-05:00"
     description: A Helm chart for the insights stratification service
     digest: 5ec2b4d5f5d92423ac783bfa9e8f6248156914f3278042f09f42dd57818939ed
     name: insights
@@ -35,8 +35,22 @@ entries:
       intersystems/sds-organization: InterSystems Corporation
       intersystems/sds-title: SDS Stratification Scheduler Service
     apiVersion: v2
+    appVersion: 0.1.3
+    created: "2024-02-07T20:13:37.548028-05:00"
+    description: A Helm chart for the stratification scheduler service
+    digest: e1ce46092eadb995bdcb785ef415fe89a3dd7f281c042ce4df573620bbdab80a
+    name: stratify-scheduler
+    type: application
+    urls:
+    - https://isc-dkogan.github.io/sds-charts/stratify-scheduler-0.1.3.tgz
+    version: 0.1.3
+  - annotations:
+      intersystems/sds-category: custom
+      intersystems/sds-organization: InterSystems Corporation
+      intersystems/sds-title: SDS Stratification Scheduler Service
+    apiVersion: v2
     appVersion: 0.1.2
-    created: "2024-02-07T20:01:31.290068-05:00"
+    created: "2024-02-07T20:13:37.547747-05:00"
     description: A Helm chart for the stratification scheduler service
     digest: 46102b568c3c6ace39c736f6282503b66673786c07601d251b85691f83e7384c
     name: stratify-scheduler
@@ -44,4 +58,4 @@ entries:
     urls:
     - https://isc-dkogan.github.io/sds-charts/stratify-scheduler-0.1.2.tgz
     version: 0.1.2
-generated: "2024-02-07T20:01:31.289069-05:00"
+generated: "2024-02-07T20:13:37.546776-05:00"

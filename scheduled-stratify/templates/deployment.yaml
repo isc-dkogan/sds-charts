@@ -43,8 +43,8 @@ spec:
           imagePullPolicy: {{.Values.schedulerImage.pullPolicy}}
           restartPolicy: Always
           env:
-          - name: STRATIFY_REST_ENDPOINT_URL
-            value: http://{clusterIPService.host}:8000
+            - name: STRATIFY_REST_ENDPOINT_URL
+              value: http://{clusterIPService.host}:8000
       {{- if .Values.compute.database.nodeTypeSelector }}
       nodeSelector:
         sds/node-type: {{ .Values.compute.database.nodeTypeSelector }}
