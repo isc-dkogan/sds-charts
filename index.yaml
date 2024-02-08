@@ -7,7 +7,7 @@ entries:
       intersystems/sds-title: SDS Insights Stratification Service
     apiVersion: v2
     appVersion: 0.1.35
-    created: "2024-02-07T23:03:30.952739-05:00"
+    created: "2024-02-07T23:21:27.536354-05:00"
     description: A Helm chart for the insights stratification service
     digest: 8139b3648a6b01c389896fe614941b16c075834c80ff3576a0f3342cb894e529
     name: insights
@@ -21,7 +21,7 @@ entries:
       intersystems/sds-title: SDS Insights Stratification Service
     apiVersion: v2
     appVersion: 0.1.34
-    created: "2024-02-07T23:03:30.952208-05:00"
+    created: "2024-02-07T23:21:27.536121-05:00"
     description: A Helm chart for the insights stratification service
     digest: 5ec2b4d5f5d92423ac783bfa9e8f6248156914f3278042f09f42dd57818939ed
     name: insights
@@ -35,8 +35,22 @@ entries:
       intersystems/sds-organization: InterSystems Corporation
       intersystems/sds-title: SDS Stratification Scheduler Service
     apiVersion: v2
+    appVersion: 0.1.8
+    created: "2024-02-07T23:21:27.538631-05:00"
+    description: A Helm chart for the stratification scheduler service
+    digest: b0d7f2e710f2c89e71c0a459a80f499de6a20a385d22b653b8267cb1ee9325c9
+    name: stratify-scheduler
+    type: application
+    urls:
+    - https://isc-dkogan.github.io/sds-charts/stratify-scheduler-0.1.8.tgz
+    version: 0.1.8
+  - annotations:
+      intersystems/sds-category: custom
+      intersystems/sds-organization: InterSystems Corporation
+      intersystems/sds-title: SDS Stratification Scheduler Service
+    apiVersion: v2
     appVersion: 0.1.7
-    created: "2024-02-07T23:03:30.95532-05:00"
+    created: "2024-02-07T23:21:27.538323-05:00"
     description: A Helm chart for the stratification scheduler service
     digest: ae0ce6c0f6aa6fb19842a303d175e4d7b63a41705e20bf80967cbd9100b479cb
     name: stratify-scheduler
@@ -50,7 +64,7 @@ entries:
       intersystems/sds-title: SDS Stratification Scheduler Service
     apiVersion: v2
     appVersion: 0.1.6
-    created: "2024-02-07T23:03:30.955018-05:00"
+    created: "2024-02-07T23:21:27.538054-05:00"
     description: A Helm chart for the stratification scheduler service
     digest: cc931d900a0062427471b6439aa35b146da617efa0472deffa46d7ef31d477d6
     name: stratify-scheduler
@@ -64,7 +78,7 @@ entries:
       intersystems/sds-title: SDS Stratification Scheduler Service
     apiVersion: v2
     appVersion: 0.1.5
-    created: "2024-02-07T23:03:30.954715-05:00"
+    created: "2024-02-07T23:21:27.537802-05:00"
     description: A Helm chart for the stratification scheduler service
     digest: 1b2a7583b6119aff87907c3dfb623b4c1a8b9271a63c58d74ac74524619be131
     name: stratify-scheduler
@@ -78,7 +92,7 @@ entries:
       intersystems/sds-title: SDS Stratification Scheduler Service
     apiVersion: v2
     appVersion: 0.1.4
-    created: "2024-02-07T23:03:30.954281-05:00"
+    created: "2024-02-07T23:21:27.537501-05:00"
     description: A Helm chart for the stratification scheduler service
     digest: 8147784ac2eb344e5898ab88fb010219770d6a74f932e3753a2a47c48d9cf739
     name: stratify-scheduler
@@ -92,7 +106,7 @@ entries:
       intersystems/sds-title: SDS Stratification Scheduler Service
     apiVersion: v2
     appVersion: 0.1.3
-    created: "2024-02-07T23:03:30.953777-05:00"
+    created: "2024-02-07T23:21:27.536844-05:00"
     description: A Helm chart for the stratification scheduler service
     digest: e1ce46092eadb995bdcb785ef415fe89a3dd7f281c042ce4df573620bbdab80a
     name: stratify-scheduler
@@ -106,7 +120,7 @@ entries:
       intersystems/sds-title: SDS Stratification Scheduler Service
     apiVersion: v2
     appVersion: 0.1.2
-    created: "2024-02-07T23:03:30.953271-05:00"
+    created: "2024-02-07T23:21:27.536601-05:00"
     description: A Helm chart for the stratification scheduler service
     digest: 46102b568c3c6ace39c736f6282503b66673786c07601d251b85691f83e7384c
     name: stratify-scheduler
@@ -114,4 +128,4 @@ entries:
     urls:
     - https://isc-dkogan.github.io/sds-charts/stratify-scheduler-0.1.2.tgz
     version: 0.1.2
-generated: "2024-02-07T23:03:30.95107-05:00"
+generated: "2024-02-07T23:21:27.535809-05:00"
