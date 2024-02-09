@@ -40,10 +40,6 @@ spec:
         - name: {{.Values.scheduler.name}}
           image: {{ .Values.schedulerImage.registry }}/{{ .Values.schedulerImage.repository }}:{{ .Values.schedulerImage.appVersion  }}
           imagePullPolicy: {{.Values.schedulerImage.pullPolicy}}
-          resources:
-            requests:
-              cpu: {{ .Values.compute.database.cpu }}
-              memory: {{ .Values.compute.database.memory }}
           env:
           - name: STRATIFY_REST_ENDPOINT_URL
             value: http://{clusterIPService.host}:8000
