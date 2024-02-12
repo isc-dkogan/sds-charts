@@ -7,7 +7,7 @@ entries:
       intersystems/sds-title: SDS Insights Stratification Service
     apiVersion: v2
     appVersion: 0.1.34
-    created: "2024-02-09T13:56:34.241124-05:00"
+    created: "2024-02-12T14:26:19.801344-05:00"
     description: A Helm chart for the insights stratification service
     digest: 5ec2b4d5f5d92423ac783bfa9e8f6248156914f3278042f09f42dd57818939ed
     name: insights
@@ -21,8 +21,22 @@ entries:
       intersystems/sds-organization: InterSystems Corporation
       intersystems/sds-title: SDS Stratification Scheduler Service
     apiVersion: v2
+    appVersion: 0.1.15
+    created: "2024-02-12T14:26:19.802193-05:00"
+    description: A Helm chart for the stratification scheduler service
+    digest: b141a82e29dc087ce514565781424ce00c38c731d9d4b16d6fa8f7cd5da392a9
+    name: stratify-scheduler
+    type: application
+    urls:
+    - https://isc-dkogan.github.io/sds-charts/stratify-scheduler-0.1.15.tgz
+    version: 0.1.15
+  - annotations:
+      intersystems/sds-category: custom
+      intersystems/sds-organization: InterSystems Corporation
+      intersystems/sds-title: SDS Stratification Scheduler Service
+    apiVersion: v2
     appVersion: 0.1.14
-    created: "2024-02-09T13:56:34.243072-05:00"
+    created: "2024-02-12T14:26:19.801904-05:00"
     description: A Helm chart for the stratification scheduler service
     digest: 579c2bc404b872674ecec966c1ea5e31058db4ea0eb22083a1508d49a8cfcf3f
     name: stratify-scheduler
@@ -30,4 +44,4 @@ entries:
     urls:
     - https://isc-dkogan.github.io/sds-charts/stratify-scheduler-0.1.14.tgz
     version: 0.1.14
-generated: "2024-02-09T13:56:34.240715-05:00"
+generated: "2024-02-12T14:26:19.800928-05:00"
