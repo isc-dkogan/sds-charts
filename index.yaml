@@ -6,34 +6,6 @@ entries:
       intersystems/sds-organization: InterSystems Corporation
       intersystems/sds-title: SDS Insights Stratification Service
     apiVersion: v2
-    appVersion: 0.1.39
-    created: "2024-02-14T13:51:40.265716-05:00"
-    description: A Helm chart for the insights stratification service
-    digest: 4ffb341f67735643defba4e5cd949b0b1306ce0fd952bf27389fe8d8189d5332
-    name: insights
-    type: application
-    urls:
-    - https://isc-dkogan.github.io/sds-charts/insights-0.1.39.tgz
-    version: 0.1.39
-  - annotations:
-      intersystems/sds-category: custom
-      intersystems/sds-organization: InterSystems Corporation
-      intersystems/sds-title: SDS Insights Stratification Service
-    apiVersion: v2
-    appVersion: 0.1.38
-    created: "2024-02-14T13:51:40.265444-05:00"
-    description: A Helm chart for the insights stratification service
-    digest: 56e192f87964c18a06cfda63d2166df041b89a43c5a229f7ec52b109506ef263
-    name: insights
-    type: application
-    urls:
-    - https://isc-dkogan.github.io/sds-charts/insights-0.1.38.tgz
-    version: 0.1.38
-  - annotations:
-      intersystems/sds-category: custom
-      intersystems/sds-organization: InterSystems Corporation
-      intersystems/sds-title: SDS Insights Stratification Service
-    apiVersion: v2
     appVersion: 0.1.35
     created: "2024-02-14T13:51:40.26518-05:00"
     description: A Helm chart for the insights stratification service
